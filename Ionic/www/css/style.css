@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "friz-quadatra";
+  src: url("../font/friz-quadrata.ttf");
+}
+ion-content{
+  background: #06131e;
+  background-image:url('../img/bg-landing.jpg') ;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  background-size:cover;
+  color:white;
+}
+*{
+  font-family: "friz-quadatra";
+}
+
+h1, h2, h3, h4{
+  color:white;
+  font-family: "friz-quadatra";
+  margin-top: 5px;
+  text-align: center;
+}
+.center{
+  text-align: center;
+}
+h4{
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+.banner-header {
+  width:100%;
+  border-bottom:1px solid #785a28;
+}
+
+img.summoner-icon {
+  border-radius: 50px 50px 50px 50px;
+  border:2px solid #785a28;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.summoner-profile{
+  margin-top: -55px;
+}
+
+.left,.right,.iconStat{
+  color:gray;
+  font-size: 11px;
+  display: inline-block;
+  text-align: center;
+  margin-left:10px;
+  margin-right: 10px;
+}
+.iconStat img {
+  width:20px;
+  margin-bottom:-5px;
+}
+.stat{
+  margin-top:-80px;
+}
+.right{
+  float: right;
+}
+
+.rank > div,.topChamp > div{
+  margin-left:auto;
+  margin-right:auto;
+  width :32.5%;
+  display: inline-block;
+  text-align:center;
+}
+.rank {
+  margin-top:35px;
+  border-top: 3px double #785a28;
+}
+.rank img {
+  height: 85px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.rank .small img {
+  height:80px;
+}
+.small{
+  position:relative;
+  top:25px;
+}
+.info_queue{
+  color:gray;
+  font-size:11px;
+}
+.division{
+  margin-top:-3px;
+  margin-bottom:-3px;
+}
+.infoMastery{
+  text-align: center;
+}
+.profileMastery{
+  margin-top:80px;
+  margin-bottom:50px;
+}
+.topChamp img {
+  margin-top:-70px;
+  width:85px;
+}
+.side img{
+  width:65px;
+}
+.tabs-dark > .tabs, .tabs.tabs-dark{
+  background-color: #06131e;
+  border-color:#785a28;
+}
+.tabs a{
+
+  font-family: "friz-quadatra";
+}
+.bar.bar-dark {
+  border-color: #06131e;
+  background-color: #06131e;
+  background-image: linear-gradient(0deg, #06131e, #06131e 50%, transparent 50%);
+  color: #785a28;
+}
+
+.bar.bar-dark .title{
+  color:#785a28;
+  font-family: "friz-quadatra";
+}
+
+/**/
+.searchBar{
+  margin-top:-40px;
+  border:2px solid #785a28;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+.searchBar label{
+  background: #06131e;
+  border:none;
+}
+.searchBar input{
+  color: white;
+}
+.bann {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px double #785a28;
+  border-top: 3px double #785a28;
+}
+.bann img{
+  margin: 0 auto;
+  max-width:30px;
+}
+
+.playerGame{
+  border-top:1px solid #785a28;
+  padding:5px;
+}
+.playerGame2{
+  border-bottom:1px solid #785a28;
+  padding: 5px;
+}
+
+.playerGame .champ, .playerGame2 .champ{
+  width:40px;
+}
+
+.playerGame>div,.playerGame2>div {
+  display:inline-block;
+}
+
+.sums{
+  margin-left:5px;
+  margin-right:5px;
+  display: block;
+  width: 20px;
+}
+.pseudo_live{
+  vertical-align: top;
+}
+input{
+  font-family: "friz-quadatra";
+}
+
+.stuff>div{
+  display: inline-block;
+}
+.items{
+  height: 40px;
+}
+
+ion-item{
+  background: inherit;
+}
+
+.match{
+  padding: 10px;
+  border-bottom:1px solid #785a28;
+  padding-left:18px;
+  padding-right:18px;
+}
+.infoMatch>div{
+  display: inline-block;
+  vertical-align: top;
+}
+.infoPers{
+  height:70px;
+  border-radius: 50px 50px 50px 50px;
+  border:2px solid #785a28;
+  margin-bottom: 10px;
+}
+.level{
+  position:absolute;
+  margin-left: 50px;
+  margin-top: -40px;
+  border-radius: 50px 50px 50px 50px;
+  border:2px solid #785a28;
+  width:23px;
+}
+.statsMatch>div{
+  display: inline-block;
+  padding-left:20px;
+  padding-right:20px;
+}
+.resultMatch{
+  float: right;
+  text-align: right;
+  margin-top: 10px;
+  margin-right:5px;
+  color : gray;
+  font-size:12px;
+}
+.resultMatch div{
+  margin-bottom:-5px;
+}
+.creeps{
+  float:right;
+}
+.creeps img {
+  opacity: 0.7;
+  height: 9px;
+}
+
+.rankLive img{
+  width : 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rankLive .info_queue{
+  width:80px;
+  color:white;
+  text-align: center;
+}
+.up{
+  position:relative;
+  top:-5px;
+}
+.scoreGame{
+  vertical-align: top;
+  line-height:15px;
+  margin-top:8px;
+  margin-left:5px;
+  margin-right:5px;
+}
+.scoreGame, .rankLive{
+  float: right;
+}
+.allChamp .info_queue{
+  font-size: 14px;
+}
+.allChamp>div{
+  display: inline-block;
+  width:24%;
+}
+
+.iconChampion{
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #3c3c41;
+  width:75px;
+  display: block;
+}
+.masteryChampion{
+  margin-left: auto;
+  margin-right: auto;
+  width:65px;
+  display: block;
+}
+
+.slider-pager .slider-pager-page {
+  color:#785a28;
+}
+.rune img{
+  height: 50px;
+}
+.rune>div{
+  display: inline-block;
+}
+.rune{
+  padding:5px;
+  padding-left:20px;
+  padding-right:20px;
+}
+.infoRune{
+  position:absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.box{
+  padding-bottom: 35px;
+}

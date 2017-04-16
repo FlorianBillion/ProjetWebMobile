@@ -1,0 +1,161 @@
+<ion-view>
+  <ion-content>
+    <div class="bar bar-header bar-dark">
+      <h1 class="title">COLLECTION</h1>
+    </div>
+    <div class="tabs-dark tabs-top remakeTab">
+      <div class="tabs">
+        <a class="tab-item" ui-sref="collection">
+          Champions
+        </a>
+        <a class="tab-item active" ui-sref="rune">
+          Runes
+        </a>
+      </div>
+
+      <!--Marge TOP -->
+      <div style="padding:50px;"></div>
+
+
+      <ion-slide-box on-slide-changed="slideHasChanged($index)">
+        <!--<ion-slide ng-repeat="page in pages">-->
+          <!--<div class="box">-->
+            <!--<h1>{{page.name}}</h1>-->
+            <!--<div ng-repeat="rune in page.runes | unique : rune.name" class="rune">-->
+              <!--<div>-->
+                <!--<img src="../img/runes/{{rune.icon}}">-->
+              <!--</div>-->
+              <!--<div class="infoRune">-->
+                <!--+{{rune.value}} {{rune.name}}-->
+              <!--</div>-->
+              <!--<div style="float: right; margin-top: 15px;">-->
+                <!--x{{rune.total}}-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</ion-slide>-->
+
+        <ion-slide>
+          <div class="box">
+            <h1>Tank</h1>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_2_3.png">
+              </div>
+              <div class="infoRune">
+                +4.26 Grande Armure
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x3
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_2_2.png">
+              </div>
+              <div class="infoRune">
+                +1 Armure
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/b_3_3.png">
+              </div>
+              <div class="infoRune">
+                +1 Résistance Magique
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+          </div>
+        </ion-slide>
+
+        <ion-slide>
+          <div class="box">
+            <h1>Full AP</h1>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_1_3.png">
+              </div>
+              <div class="infoRune">
+                +4.95 Grande Puissance
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x3
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_1_2.png">
+              </div>
+              <div class="infoRune">
+                +1.2 Puissance
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/r_3_3.png">
+              </div>
+              <div class="infoRune">
+                +0.87 Pénétration Magique
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+          </div>
+        </ion-slide>
+
+        <ion-slide>
+          <div class="box">
+            <h1>AD</h1>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/r_2_3.png">
+              </div>
+              <div class="infoRune">
+                +2.5 Grande Dégat
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x3
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_2_2.png">
+              </div>
+              <div class="infoRune">
+                +1.26 Dégats
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+            <div class="rune">
+              <div>
+                <img src="../img/runes/y_1_2.png">
+              </div>
+              <div class="infoRune">
+                +1  Armure
+              </div>
+              <div style="float: right; margin-top: 15px;">
+                x9
+              </div>
+            </div>
+          </div>
+        </ion-slide>
+
+      </ion-slide-box>
+
+      <!--Marge BOT -->
+      <div style="padding:23px;"></div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,100 @@
+<ion-view>
+	<ion-content>
+		<img class="banner-header" src="../img/champions/Jhin_Splash_Centered_0.jpg">
+    <div class="summoner-profile">
+      <img class="summoner-icon" src="../img/summoner_icon/profileIcon976.jpg"><!--<img class="summoner-icon" src="../img/summoner_icon/{{profile.icon}}.jpg">-->
+      <h3>Alderiate</h3><!--<h3>{{profile.pseudo}}</h3>-->
+    </div>
+
+    <div class="stat">
+      <div class="left">
+        <div class="iconStat">
+          <div><img src="../img/amical.png"></div>
+          <div>178</div><!--<div>{{profile.friendly}}</div>-->
+        </div>
+        <div class="iconStat">
+          <div><img src="../img/serviable.png"></div>
+          <div>21</div><!--<div>{{profile.serviable}}</div>-->
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="iconStat">
+          <div><img src="../img/equipe.png"></div>
+          <div>298</div><!--<div>{{profile.teamwork}}</div>-->
+        </div>
+        <div class="iconStat">
+          <div><img src="../img/adversaire.png"></div>
+          <div>148</div><!--<div>{{profile.honnor}}</div>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="rank">
+      <div class="small">
+        <img src="../img/rank/platinium.png">
+        <div class="info_queue">
+          FLEX 3V3
+        </div>
+        <div class="division">
+          PLATINIUM II<!--{{profile.division3v3}} <font ng-if="profile.division3v3 != 'CHALLENGER' && profile.division3v3 !='MASTER'">{{profile.rank3v3}}</font>-->
+        </div>
+        <div class="info_queue">
+          80 LP<!--{{profile.lp3v3}}-->
+        </div>
+      </div>
+
+      <div>
+        <img src="../img/rank/master.png">
+        <div class="info_queue">
+          SOLO/DUO
+        </div>
+        <div class="division">
+          MASTER<!--{{profile.division}} <font ng-if="profile.division != 'CHALLENGER' && profile.division !='MASTER'">{{profile.rank}}</font>-->
+        </div>
+        <div class="info_queue">
+          0 LP<!--{{profile.lp}}-->
+        </div>
+      </div>
+
+      <div class="small">
+        <img src="../img/rank/diamond.png">
+        <div class="info_queue">
+          FLEX 5V5
+        </div>
+        <div class="division">
+          DIAMOND I<!--{{profile.division5v5}} <font ng-if="profile.division5V5 != 'CHALLENGER' && profile.division5V5 !='MASTER'">{{profile.rank5v5}}</font>-->
+        </div>
+        <div class="info_queue">
+          100 LP<!--{{profile.lp5v5}}-->
+        </div>
+      </div>
+    </div>
+
+    <div class="profileMastery">
+      <img src="../img/bar.png">
+      <div class="topChamp">
+        <div class="side">
+          <img src="../img/mastery2.png"><!--<img src="../img/{{profile.mast2}}.png">-->
+        </div>
+        <div>
+          <img src="../img/mastery1.png"><!--<img src="../img/{{profile.mast1}}.png">-->
+        </div>
+        <div class="side">
+          <img src="../img/mastery3.png"><!--<img src="../img/{{profile.mast3}}.png">-->
+        </div>
+      </div>
+
+      <div class="infoMastery">
+        <div class="division">
+          258<!--{{profile.masteryTotal}}-->
+        </div>
+        <div class="info_queue">
+          MASTERY SCORE
+        </div>
+      </div>
+    </div>
+    <div style="padding:10px;"></div>
+
+	</ion-content>
+</ion-view>
